@@ -1,5 +1,6 @@
 def obtener_precio_usuario():
-    entrada = input("Ingrese el precio del producto: ")
+    """Solicita al usuario que ingrese el precio de un artículo y devuelve ese valor como un número de punto flotante."""
+    entrada = input("Enter the item's price:\n")
     return float(entrada)
-precio = obtener_precio_usuario()
-print(precio)
+if __name__ == "__main__":
+    print(obtener_precio_usuario())
