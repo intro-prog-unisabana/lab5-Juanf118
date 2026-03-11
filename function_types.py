@@ -5,3 +5,10 @@ def list_shift(lst, value):
         lst[i] += value
     return (lst)
 print(list_shift([1, 2, 3], 5))
+
+def calc_avg():
+    """Solicita al usuario que ingrese tres números y devuelve el promedio de esos números."""
+    entrada = input("Enter three numbers separated by spaces:\n")
+    numeros = [float(num) for num in entrada.split()]
+    return sum(numeros) / len(numeros)
+print(calc_avg())
