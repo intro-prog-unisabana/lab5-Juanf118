@@ -1,12 +1,12 @@
 ##Lista original
 datos = [2.0, 4.0, 6.0, 8.0]
-def cacl_avg(datos):
+def calc_avg(datos):
     if len(datos) == 0:
         return 0.0
     total = sum(datos)
     promedio = total / len(datos)
     return promedio
-prom = cacl_avg(datos)
+prom = calc_avg(datos)
 
 
 def list_shift(datos, shift_amount):
