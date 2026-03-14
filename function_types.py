@@ -1,11 +1,8 @@
-##Lista original
 datos = [2.0, 4.0, 6.0, 8.0]
 def calc_avg(datos):
     if len(datos) == 0:
         return 0.0
-    total = sum(datos)
-    promedio = total / len(datos)
-    return promedio
+    return sum(datos) / len(datos)
 prom = calc_avg(datos)
 
 
