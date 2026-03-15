@@ -11,6 +11,7 @@ def main():
         if op == "absolute":
             num = float(input("Enter the number:\n"))
             result = utils_calc.absolute(num)
+            print(f"The result is: {result}")
         else:
             num1 = float(input("Enter the first number:\n"))
             num2 = float(input("Enter the second number:\n"))
