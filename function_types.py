@@ -5,7 +5,6 @@ def calc_avg(datos):
     return sum(datos) / len(datos)
 
 def list_shift(datos, shift_amount):
-    # Modifica la lista 'datos' en el lugar (in-place) y no devuelve nada.
     for i in range(len(datos)):
         datos[i] = datos[i] + shift_amount
 
