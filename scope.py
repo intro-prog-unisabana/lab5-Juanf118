@@ -1,10 +1,13 @@
-x = 10
-y = "hola"
-def set_globals():
-   """almacenar los globales"""
-   globales = x, y
-   
+int_global = None
+str_global = None
+
+def set_globals(some_int, some_str):
+    global int_global
+    global str_global
+    int_global = some_int
+    str_global = some_str
+set_globals(10, "Hola")
+
 def get_globals():
-    tupla = (x, y)
-    print(tupla)
-    return tupla
+    return (int_global, str_global)
+print(get_globals())
