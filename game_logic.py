@@ -4,7 +4,7 @@ def run_game():
     seed = int(input("Enter a seed value: \n"))
     secret_number.seed_secret_number(seed)
     
-    target = secret_number.generate_secret_number()
+    target = secret_number.generate_secret_number(1, 100)
     attempts = 0
     solved = False
     while not solved:
