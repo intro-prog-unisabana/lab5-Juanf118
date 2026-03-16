@@ -14,6 +14,6 @@ def run_game():
         message, solved = response.input_response(target, guess)
         print(message)
 
-        print(f"It took you {attempts} tries!.")
+    print(f"It took you {attempts} tries!.")
 if __name__ == "__main__":
     run_game()
